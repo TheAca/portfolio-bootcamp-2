@@ -1,0 +1,168 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#hero-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.hero h1 {
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.hero h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-image img {
+    width: 100%;
+    position: relative;
+    top: 25%;
+    right: 100%; 
+}
+
+.hero-title {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+/* resume */
+
+.resume-section {
+    width: 100%;    
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 30% 70%;
+    background-color: rgb(190, 183, 82);
+}
+.resume {
+    width: 100%;
+    /* border: 1px solid black; */    
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.resume h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid white;
+    padding: 15px;
+}
+.resume-head {
+    grid-column: span 3;
+}
+.resume-head h1 {
+    text-align: center ;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    padding: 30px;
+}
+
+.resume ol {
+    margin-top: 80px;
+    font-size: 24px;
+}
+.resume li {
+    /* list-style-type: none;/ */
+    padding: 20px;
+}
+.resume-work {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+/* past projects */
+
+.pastProjects {
+    width: 100%;
+    height: 80vh;
+   
+}
+.projects {
+    display: flex;
+    justify-content: space-around;  
+}
+.past-project-head {
+    text-align: center ;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Slab', serif;
+    border-bottom: 2px solid rgb(190, 183, 82);
+    font-size: 48px;
+    padding: 30px;
+}
+.project {
+    margin: 50px 0;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-img {
+    width: 90%;
+    height: 300px;
+}
+.project-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;  
+    padding: 15px;
+}
+.project-description {
+    width: 90%; 
+    font-family: 'Montserrat', sans-serif;
+}
+.contact {
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(190, 183, 82);
+}
+.contact-me {
+    text-align: center ;
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    padding: 30px;
+    color: white;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+}
+.contact-in {
+    width: 33%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.email-input {
+    width: 70%;
+    height: 40px;
+    border: 1px solid black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+}
+.input1 {
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0;
+}
+.info-btn {
+    width: 20%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    background-color: rgb(190, 183, 82);
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    color: white;   
+}
